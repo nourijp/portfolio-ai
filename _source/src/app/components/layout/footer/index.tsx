@@ -12,25 +12,8 @@ const Footer = () => {
             </div>
             <div className="flex-grow h-px bg-black" />
           </div>
-          <p className="text-secondary">
-            Designed by{" "}
-            <a
-              href="https://getnextjstemplates.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary hover:underline"
-            >
-              getnextjstemplates
-            </a>{" "}
-            • Distributed by{" "}
-            <a
-              href="https://themewagon.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary hover:underline"
-            >
-              ThemeWagon
-            </a>
+          <p className="text-secondary text-sm">
+            © {new Date().getFullYear()} Hamed Nouri
           </p>
         </div>
       </div>

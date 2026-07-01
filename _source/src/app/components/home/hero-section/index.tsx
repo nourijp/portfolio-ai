@@ -22,7 +22,7 @@ const index = () => {
               </div>
               <h1>AI Automation & Communications Specialist</h1>
             </div>
-            <p className="text-secondary font-normal max-w-md xl:max-w-xl">A central repository for my AI Automation & Communications portfolio, highlighting technical workflow experiments, AI-assisted development, and modern product communication.</p>
+            <p className="text-secondary font-normal max-w-md xl:max-w-xl">I build AI-assisted tools and automated systems that streamline development, content, and learning processes. By translating complex technical systems into clear, user-facing communication, I help teams optimize their product workflows, reduce adoption friction, and scale their impact.</p>
           </div>
           <Image
             src={getImgPath("/images/home/banner/banner-img.png")}

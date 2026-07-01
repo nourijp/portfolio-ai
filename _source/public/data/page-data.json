@@ -41,16 +41,16 @@
   "educationData": {
     "education": [
       {
-        "title": "Lipsum Collage - 2010",
-        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form Koramangala collage."
+        "title": "Delivery & Implementation",
+        "description": "Software rollouts, user onboarding, project coordination, and adoption planning."
       },
       {
-        "title": "Master Diploma - 2012",
-        "description": "Combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
+        "title": "Stakeholder Management",
+        "description": "Cross-functional alignment, SME collaboration, and client/user communication."
       },
       {
-        "title": "Master in User Experience - 2014",
-        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
+        "title": "Enablement & Training",
+        "description": "Training materials, how-to guides, self-service resources, and knowledge base content."
       }
     ],
     "skills": [
@@ -89,28 +89,24 @@
   "contactLinks": {
     "socialLinks": [
       {
-        "title": "Dribble",
-        "href": "/"
-      },
-      {
-        "title": "Facebook",
-        "href": "/"
-      },
-      {
         "title": "LinkedIn",
-        "href": "/"
+        "href": "https://linkedin.com/in/hamednouri"
+      },
+      {
+        "title": "GitHub",
+        "href": "https://github.com/nourijp"
       }
     ],
     "contactInfo": [
       {
         "type": "email",
-        "label": "hello@imsruthi.com",
-        "link": "mailto:hello@imsruthi.com"
+        "label": "ai@hamednouri.com",
+        "link": "mailto:ai@hamednouri.com"
       },
       {
         "type": "phone",
-        "label": "+901 5588 2500",
-        "link": "tel:+90155882500"
+        "label": "+1 214 245 0784",
+        "link": "tel:+12142450784"
       }
     ]
   }

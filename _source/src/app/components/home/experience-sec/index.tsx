@@ -3,32 +3,32 @@ import React from 'react';
 const ExperienceSec = () => {
     const experiences = [
         {
-            year: "2018",
-            title: "Junior UX Designer",
-            company: "www.startup.com",
+            year: "2021-2025",
+            title: "Communications Manager",
+            company: "CiraConnect",
             type: "Fulltime",
-            description: "Suffered alteration in some form by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum"
+            description: "Led SaaS communications, documentation, training, and adoption support across teams. Coordinated cross-functional teams to clarify changes and improve rollout readiness, driving a 28% increase in adoption and 22% reduction in support requests."
         },
         {
-            year: "2019",
-            title: "Senior UX Designer",
-            company: "www.googly.com",
+            year: "2021-Present",
+            title: "Content & Product Manager",
+            company: "Aya & Sura, LLC",
             type: "Remote",
-            description: "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem"
+            description: "Led product communication, content development, and digital learning support. Leading development of an iOS learning app focused on shared progress and habit-building."
         },
         {
-            year: "2020-2022",
-            title: "Team Lead Designer",
-            company: "www.company.com",
-            type: "Fulltime",
-            description: "Handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated"
+            year: "2009-Present",
+            title: "Founder & Community Growth",
+            company: "MManga",
+            type: "Remote",
+            description: "Built and scaled a digital content platform. Led content and communications strategy, growing audiences to 44K+ across platforms."
         },
         {
-            year: "2023+",
-            title: "Team Lead Designer",
-            company: "www.latest.com",
+            year: "2017-2020",
+            title: "Instructor & Communications Coach",
+            company: "JET Programme",
             type: "Fulltime",
-            description: "Release of Letraset sheets containing Lorem Ipsum passages and more recently with desktop publishing software"
+            description: "Delivered communication-focused instruction and coordinated programs requiring clear communication, planning, and stakeholder alignment in Tokyo, Japan."
         }
     ];
 

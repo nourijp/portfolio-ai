@@ -2,39 +2,33 @@
   "workData": [
     {
       "image": "/images/work/work-img-1.jpg",
-      "title": "Mug Sticker Designing",
-      "client": "John Honnai",
-      "slug": "mug-sticker-designing"
+      "title": "26-Site Web Deployment System",
+      "client": "Antigravity, GitHub, Cloudflare",
+      "slug": "#"
     },
     {
       "image": "/images/work/work-img-2.jpg",
-      "title": "Mobile App Design",
-      "client": "John Honnai",
-      "slug": "mobile-app-design"
+      "title": "Cross-Device Automation System",
+      "client": "Raycast, Obsidian, Shell",
+      "slug": "#"
     },
     {
       "image": "/images/work/work-img-3.jpg",
-      "title": "Fashion Website Template",
-      "client": "John Honnai",
-      "slug": "fashion-website-template"
+      "title": "TRMNL E-ink Pipeline",
+      "client": "Docker, Backend APIs",
+      "slug": "#"
     },
     {
       "image": "/images/work/work-img-4.jpg",
-      "title": "Book Cover Design",
-      "client": "John Honnai",
-      "slug": "book-cover-design"
+      "title": "AI Multilingual Learning System",
+      "client": "LLM Classification, Anki",
+      "slug": "#"
     },
     {
       "image": "/images/work/work-img-5.jpg",
-      "title": "Mobile App Design",
-      "client": "John Honnai",
-      "slug": "mobile-app-design"
-    },
-    {
-      "image": "/images/work/work-img-6.jpg",
-      "title": "Mug Sticker Designing",
-      "client": "John Honnai",
-      "slug": "mug-sticker-designing"
+      "title": "Messaging Sticker Conversion",
+      "client": "Asset Extraction Pipeline",
+      "slug": "#"
     }
   ]
 }

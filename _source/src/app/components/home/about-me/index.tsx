@@ -35,19 +35,14 @@ const AboutMe = () => {
 
               <div className="w-full lg:max-w-2xl flex-1">
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable. If you are going to use a passage of
-                  Lorem Ipsum, you need to be sure there isn't anything
-                  embarrassing hidden in the middle of text.
+                  I am an AI automation and communications specialist with over 15 years of experience spanning SaaS messaging, product launches, and digital community growth. My work sits at the intersection of technical systems and human communication—whether I'm building a cross-device automation system to launch development environments, or crafting rollout messaging to guide users through an enterprise software transition. I focus on creating workflow automation systems that eliminate friction and clear documentation that drives adoption.
                 </p>
 
                 <div className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray">
                   {[
-                    { count: "06", label: "Years of experience" },
-                    { count: "165+", label: "Happy Clients" },
-                    { count: "1800+", label: "Project Completed" },
+                    { count: "15", label: "Years of Experience" },
+                    { count: "44K+", label: "Community Audience" },
+                    { count: "28%", label: "Adoption Increase" },
                   ].map((item, i) => (
                     <div key={i}>
                       <h3>{item.count}</h3>
@@ -69,7 +64,7 @@ const AboutMe = () => {
                     <p className="text-base xl:text-xl text-black">Language</p>
                   </div>
                   <div className="flex flex-wrap justify-center items-center gap-2.5">
-                    {["English", "Hindi", "Malayalam"].map((lang) => (
+                    {["English", "Japanese", "Farsi"].map((lang) => (
                       <p
                         key={lang}
                         className="bg-white py-2 md:py-3.5 px-4 md:px-5 w-fit rounded-full text-base xl:text-xl"
