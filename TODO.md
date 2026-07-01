@@ -1,7 +1,7 @@
-# TODO — ai.hamednouri.com
+# TODO — resume.hamednouri.com
 
 ## Assets Needed
-- [ ] Screenshots of AI workflow examples
-- [ ] Before/after prompt examples (redacted OK)
-- [ ] Automation screenshots
-- [ ] Delivery Manager resume already in public/files/
+- [ ] Technical Writer resume → public/files/ (when available)
+- [ ] Learning/eLearning resume → public/files/ (when available)
+- [ ] Professional headshot
+- [ ] Both resumes already in public/files/

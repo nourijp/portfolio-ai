@@ -1,20 +1,20 @@
-# portfolio-ai
+# portfolio-resume
 
-Subdomain:    ai.hamednouri.com
-Template:     Stisla
-Template URL: https://themewagon.github.io/stisla/
-Public email: ai@hamednouri.com
-Resume:       hamed-nouri-delivery-manager-resume-2026.pdf
+Subdomain:    resume.hamednouri.com
+Template:     Resume-Nextjs
+Template URL: https://themewagon.github.io/Resume-Nextjs/
+Public email: resume@hamednouri.com
+Resume:       Both resumes in public/files/
 
 ## Purpose
-AI workflows, automation, productivity, documentation acceleration, product ops.
+General CV hub with targeted lanes and downloadable resumes.
 
 ## Build
 Open index.html in browser. No build step required.
 
 ## Deploy
 Not deployed. Awaiting Hamed's approval.
-GitHub Pages: https://nourijp.github.io/portfolio-ai/
+GitHub Pages: https://nourijp.github.io/portfolio-resume/
 
 ## Asset TODOs
 See TODO.md
