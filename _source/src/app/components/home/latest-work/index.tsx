@@ -47,8 +47,7 @@ const LatestWork = () => {
                         className="rounded-lg w-full h-full object-cover"
                       />
                       <Link
-                        onClick={(e) => e.preventDefault()}
-                        href={"#!"}
+                        href={`/projects/${value.slug}`}
                         className="absolute top-0 left-0 backdrop-blur-xs bg-primary/15 w-full h-full hidden group-hover:flex rounded-lg"
                       >
                         <span className="flex justify-center items-center p-5 w-full">
@@ -79,7 +78,7 @@ const LatestWork = () => {
                     </div>
                     <div className="flex flex-col gap-0 xl:gap-2">
                       <div className="flex items-center justify-between">
-                        <Link href={`${value.slug}`}>
+                        <Link href={`/projects/${value.slug}`}>
                           <h5>{value?.title}</h5>
                         </Link>
                         <Image

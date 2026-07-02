@@ -4,31 +4,41 @@
       "image": "/images/work/work-img-1.jpg",
       "title": "26-Site Web Deployment System",
       "client": "Antigravity, GitHub, Cloudflare",
-      "slug": "#"
+      "slug": "26-site-deployment",
+      "description": "Designed and automated an end-to-end pipeline to build, deploy, and manage 26 portfolio and project websites across GitHub Pages and Cloudflare. Each site is version-controlled, statically exported, and mapped to a custom subdomain—all orchestrated through AI-assisted tooling and shell scripts.",
+      "highlights": ["GitHub Pages automation", "Cloudflare DNS management via API", "Static Next.js export pipeline", "26 subdomains live simultaneously"]
     },
     {
       "image": "/images/work/work-img-2.jpg",
       "title": "Cross-Device Automation System",
       "client": "Raycast, Obsidian, Shell",
-      "slug": "#"
+      "slug": "cross-device-automation",
+      "description": "Built a personal automation ecosystem spanning Mac, iOS, and terminal environments. Unified Raycast scripts, Obsidian workflows, and shell aliases into a consistent, context-aware productivity layer that reduces friction across development, writing, and research tasks.",
+      "highlights": ["Raycast script commands", "Obsidian templating & automation", "Shell alias library", "Cross-device sync via iCloud & Git"]
     },
     {
       "image": "/images/work/work-img-3.jpg",
       "title": "TRMNL E-ink Pipeline",
       "client": "Docker, Backend APIs",
-      "slug": "#"
+      "slug": "trmnl-eink-pipeline",
+      "description": "Developed a custom data pipeline to feed real-time and scheduled content to an e-ink display device (TRMNL). The system pulls from multiple backend APIs, processes and formats data, and pushes rendered payloads to the device on a configurable schedule using a Dockerized service.",
+      "highlights": ["Docker containerization", "REST API integration", "Scheduled data pipeline", "E-ink display rendering"]
     },
     {
       "image": "/images/work/work-img-4.jpg",
       "title": "AI Multilingual Learning System",
       "client": "LLM Classification, Anki",
-      "slug": "#"
+      "slug": "ai-multilingual-learning",
+      "description": "Created an AI-assisted language learning pipeline that classifies vocabulary and grammar items using LLMs, generates context-rich flashcard content, and pipes structured output into Anki decks. The system supports English, Japanese, and Farsi learning tracks.",
+      "highlights": ["LLM-powered content classification", "Automated Anki deck generation", "Multi-language support (EN/JP/FA)", "Spaced repetition optimization"]
     },
     {
       "image": "/images/work/work-img-5.jpg",
       "title": "Messaging Sticker Conversion",
       "client": "Asset Extraction Pipeline",
-      "slug": "#"
+      "slug": "messaging-sticker-conversion",
+      "description": "Engineered a batch processing pipeline to extract, convert, and package messaging sticker assets across multiple formats and platforms. The tool automates frame extraction, transparency normalization, and export to APNG/WebP formats compatible with LINE, WhatsApp, and Telegram.",
+      "highlights": ["Batch asset extraction", "Multi-format export (APNG, WebP)", "Transparency normalization", "LINE / WhatsApp / Telegram compatible"]
     }
   ]
 }

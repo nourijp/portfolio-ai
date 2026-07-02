@@ -50,34 +50,34 @@
     ],
     "skills": [
       {
-        "name": "Figma",
-        "icon": "/images/home/education-skill/figma-icon.svg",
+        "name": "Antigravity",
+        "icon": "/images/home/education-skill/antigravity-icon.svg",
         "rating": 5
       },
       {
-        "name": "Photoshop",
-        "icon": "/images/home/education-skill/photoshop-icon.svg",
+        "name": "Claude",
+        "icon": "/images/home/education-skill/claude-icon.svg",
         "rating": 5
       },
       {
-        "name": "Sketch",
-        "icon": "/images/home/education-skill/sketch-icon.svg",
+        "name": "Codex",
+        "icon": "/images/home/education-skill/codex-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Obsidian",
+        "icon": "/images/home/education-skill/obsidian-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Notion",
+        "icon": "/images/home/education-skill/notion-icon.svg",
         "rating": 4
       },
       {
-        "name": "Adobe XD",
-        "icon": "/images/home/education-skill/adobe-icon.svg",
+        "name": "Xcode",
+        "icon": "/images/home/education-skill/xcode-icon.svg",
         "rating": 4
-      },
-      {
-        "name": "Framer",
-        "icon": "/images/home/education-skill/framer-icon.svg",
-        "rating": 5
-      },
-      {
-        "name": "Invasion",
-        "icon": "/images/home/education-skill/invision-icon.svg",
-        "rating": 3
       }
     ]
   },

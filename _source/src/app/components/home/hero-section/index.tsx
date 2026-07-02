@@ -20,7 +20,7 @@ const index = () => {
                   />
                 </div>
               </div>
-              <h1>AI Automation & Communications Specialist</h1>
+              <h1>AI Automation {"&"} Communications<br />Specialist</h1>
             </div>
             <p className="text-secondary font-normal max-w-md xl:max-w-xl">I build AI-assisted tools and automated systems that streamline development, content, and learning processes. By translating complex technical systems into clear, user-facing communication, I help teams optimize their product workflows, reduce adoption friction, and scale their impact.</p>
           </div>
