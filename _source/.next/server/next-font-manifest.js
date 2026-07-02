@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/hamed/.gemini/antigravity/scratch/ai_theme_update/portfolio-ai/_source/src/app/layout":["static/media/9d5a263311222317-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
