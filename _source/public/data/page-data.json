@@ -50,33 +50,33 @@
     ],
     "skills": [
       {
-        "name": "Antigravity",
-        "icon": "/images/home/education-skill/antigravity-icon.svg",
+        "name": "Claude",
+        "icon": "/images/home/education-skill/claude-icon.png",
         "rating": 5
       },
       {
-        "name": "Claude",
-        "icon": "/images/home/education-skill/claude-icon.svg",
+        "name": "Antigravity",
+        "icon": "/images/home/education-skill/antigravity-icon.png",
         "rating": 5
       },
       {
         "name": "Codex",
-        "icon": "/images/home/education-skill/codex-icon.svg",
+        "icon": "/images/home/education-skill/codex-icon.png",
         "rating": 5
       },
       {
         "name": "Obsidian",
-        "icon": "/images/home/education-skill/obsidian-icon.svg",
+        "icon": "/images/home/education-skill/obsidian-icon.png",
         "rating": 5
       },
       {
         "name": "Notion",
-        "icon": "/images/home/education-skill/notion-icon.svg",
+        "icon": "/images/home/education-skill/notion-icon.png",
         "rating": 4
       },
       {
         "name": "Xcode",
-        "icon": "/images/home/education-skill/xcode-icon.svg",
+        "icon": "/images/home/education-skill/xcode-icon.png",
         "rating": 4
       }
     ]
