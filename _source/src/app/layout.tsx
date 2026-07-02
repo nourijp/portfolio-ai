@@ -13,7 +13,14 @@ export const metadata: Metadata = {
   title: "Hamed Nouri — AI Automation & Communications Specialist",
   description: "Portfolio for Hamed Nouri covering AI automation, technical workflows, and product communications. Based in Denton, TX.",
   openGraph: {
-    images: ["https://ai.hamednouri.com/images/home/banner/banner-img.png"],
+    images: [
+      {
+        url: "https://ai.hamednouri.com/images/home/banner/banner-img.png",
+        width: 1200,
+        height: 630,
+        alt: "Hamed Nouri - AI Automation & Communications",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
