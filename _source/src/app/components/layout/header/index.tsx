@@ -23,16 +23,6 @@ const Header = () => {
                                 Download PDF Resume
                             </span>
                         </a>
-
-                        <a
-                            href="https://calendar.proton.me/book/INSERT_YOUR_BOOKING_LINK_HERE"
-                            target="_blank"
-                            className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-black bg-black rounded-full hover:bg-opacity-80"
-                        >
-                            <span className="relative z-10 text-xl font-medium text-white transition-colors duration-300">
-                                Book a Meeting
-                            </span>
-                        </a>
                     </div>
                 </nav>
             </div>

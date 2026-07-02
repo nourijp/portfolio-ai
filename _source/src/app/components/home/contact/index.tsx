@@ -132,6 +132,15 @@ const Contact = () => {
               </div>
             </form>
             <div className="flex flex-col sm:flex-row md:flex-col justify-between gap-5 md:gap-20 items-center md:items-end">
+              <a
+                  href="https://calendar.proton.me/book/INSERT_YOUR_BOOKING_LINK_HERE"
+                  target="_blank"
+                  className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 px-4 sm:px-5 border border-black bg-black rounded-full hover:bg-opacity-80"
+              >
+                  <span className="relative z-10 text-base font-medium text-white transition-colors duration-300">
+                      Book a Meeting
+                  </span>
+              </a>
               <div className="flex flex-wrap flex-row md:flex-col items-start md:items-end gap-4 md:gap-6">
                 {contactData?.socialLinks?.map((value: any, index: any) => {
                   return (
