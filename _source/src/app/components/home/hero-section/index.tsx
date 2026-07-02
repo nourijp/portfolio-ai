@@ -28,7 +28,6 @@ const index = () => {
           <video
             src={getImgPath("/images/home/banner/video-banner.mp4")}
             autoPlay
-            loop
             muted
             playsInline
             className="block lg:hidden w-full max-w-[685px] mx-auto"
@@ -47,7 +46,6 @@ const index = () => {
         <video
           src={getImgPath("/images/home/banner/video-banner.mp4")}
           autoPlay
-          loop
           muted
           playsInline
           className="absolute right-0 top-0 z-1 w-[685px] h-[650px] object-cover"
