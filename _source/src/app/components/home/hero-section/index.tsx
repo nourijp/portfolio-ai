@@ -24,23 +24,41 @@ const index = () => {
             </div>
             <p className="text-secondary font-normal max-w-md xl:max-w-xl">I build AI-assisted tools and automated systems that streamline development, content, and learning processes. By translating complex technical systems into clear, user-facing communication, I help teams optimize their product workflows, reduce adoption friction, and scale their impact.</p>
           </div>
-          <Image
+          {/* Temporary Video Preview */}
+          <video
+            src={getImgPath("/images/home/banner/video-banner.mp4")}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="block lg:hidden w-full max-w-[685px] mx-auto"
+          />
+          {/* <Image
             src={getImgPath("/images/home/banner/banner-img.png")}
             alt="banner-img"
             width={685}
             height={650}
             className="block lg:hidden"
-          />
+          /> */}
         </div>
       </div>
       <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
-        <Image
+        {/* Temporary Video Preview */}
+        <video
+          src={getImgPath("/images/home/banner/video-banner.mp4")}
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute right-0 top-0 z-1 w-[685px] h-[650px] object-cover"
+        />
+        {/* <Image
           src={getImgPath("/images/home/banner/banner-img.png")}
           alt="banner-img"
           width={685}
           height={650}
           className=" absolute right-0 top-0 z-1"
-        />
+        /> */}
       </div>
     </section>
   );
