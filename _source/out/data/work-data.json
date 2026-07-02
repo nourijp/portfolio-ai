@@ -2,11 +2,11 @@
   "workData": [
     {
       "image": "/images/work/work-img-1.jpg",
-      "title": "26-Site Web Deployment System",
+      "title": "34-Site Web Deployment System",
       "client": "Antigravity, GitHub, Cloudflare",
       "slug": "26-site-deployment",
-      "description": "Designed and automated an end-to-end pipeline to build, deploy, and manage 26 portfolio and project websites across GitHub Pages and Cloudflare. Each site is version-controlled, statically exported, and mapped to a custom subdomain—all orchestrated through AI-assisted tooling and shell scripts.",
-      "highlights": ["GitHub Pages automation", "Cloudflare DNS management via API", "Static Next.js export pipeline", "26 subdomains live simultaneously"]
+      "description": "Designed and automated an end-to-end pipeline to build, deploy, and manage 34 portfolio and project websites across GitHub Pages and Cloudflare. Each site is version-controlled, statically exported, and mapped to a custom subdomain—all orchestrated through AI-assisted tooling and shell scripts.",
+      "highlights": ["GitHub Pages automation", "Cloudflare DNS management via API", "Static Next.js export pipeline", "34 subdomains live simultaneously"]
     },
     {
       "image": "/images/work/work-img-2.jpg",
