@@ -1,25 +1,10 @@
 "use client";
-import { getDataPath, getImgPath } from "@/utils/image";
+import { getImgPath } from "@/utils/image";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import pageDataJson from "../../../../../public/data/page-data.json";
 
 const EducationSkills = () => {
-  const [educationData, setEductionData] = useState<any>(null);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await fetch(getDataPath("/data/page-data.json"));
-        if (!res.ok) throw new Error("Failed to fetch");
-        const data = await res.json();
-        setEductionData(data?.educationData);
-      } catch (error) {
-        console.error("Error fetching services:", error);
-      }
-    };
-
-    fetchData();
-  }, []);
+  const educationData = pageDataJson?.educationData;
 
   return (
     <section>

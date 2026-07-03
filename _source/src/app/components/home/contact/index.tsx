@@ -1,11 +1,12 @@
 "use client";
-import { getDataPath, getImgPath } from "@/utils/image";
+import { getImgPath } from "@/utils/image";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import pageDataJson from "../../../../../public/data/page-data.json";
 
 const Contact = () => {
-  const [contactData, setContactData] = useState<any>(null);
+  const contactData = pageDataJson?.contactLinks;
   const [submitted, setSubmitted] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
@@ -13,21 +14,6 @@ const Contact = () => {
     email: "",
     message: "",
   });
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await fetch(getDataPath("/data/page-data.json"));
-        if (!res.ok) throw new Error("Failed to fetch");
-        const data = await res.json();
-        setContactData(data?.contactLinks);
-      } catch (error) {
-        console.error("Error fetching services:", error);
-      }
-    };
-
-    fetchData();
-  }, []);
 
   const handleChange = (e: any) => {
     const { name, value } = e.target;

@@ -1,26 +1,11 @@
 "use client";
-import { getDataPath, getImgPath } from "@/utils/image";
+import { getImgPath } from "@/utils/image";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import pageDataJson from "../../../../../../public/data/page-data.json";
 
 const ContactBar = () => {
-  const [contactBarData, setContactBarData] = useState<any>(null);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await fetch(getDataPath("/data/page-data.json"));
-        if (!res.ok) throw new Error("Failed to fetch");
-        const data = await res.json();
-        setContactBarData(data?.contactBar);
-      } catch (error) {
-        console.error("Error fetching services:", error);
-      }
-    };
-
-    fetchData();
-  }, []);
+  const contactBarData = pageDataJson?.contactBar;
 
   return (
     <section>
