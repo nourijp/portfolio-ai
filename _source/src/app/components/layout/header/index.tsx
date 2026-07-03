@@ -17,7 +17,7 @@ const Header = () => {
                         <a
                             href="/files/hamed-nouri-ai-automation-communications-specialist-2026.pdf"
                             target="_blank"
-                            className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
+                            className="btn-fill relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
                         >
                             <span className="relative z-10 text-xl font-medium text-black group-hover:text-white transition-colors duration-300">
                                 Download PDF Resume
