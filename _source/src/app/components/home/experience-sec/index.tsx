@@ -7,7 +7,7 @@ const ExperienceSec = () => {
             title: "Communications Manager",
             company: "CiraConnect",
             type: "Fulltime",
-            description: "Led SaaS communications, documentation, training, and adoption support across teams. Coordinated cross-functional teams to clarify changes and improve rollout readiness, driving a 28% increase in adoption and 22% reduction in support requests."
+            description: "Led SaaS communications, documentation, training, and adoption support across teams. Coordinated cross-functional teams to clarify changes and improve rollout readiness, driving an increase in adoption and 22% reduction in support requests."
         },
         {
             year: "2021-Present",
