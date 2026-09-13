@@ -50,8 +50,8 @@
     ],
     "skills": [
       {
-        "name": "Claude",
-        "icon": "/images/home/education-skill/claude-icon.png",
+        "name": "Electron",
+        "icon": "/images/home/education-skill/electron-icon.png",
         "rating": 5
       },
       {

@@ -119,7 +119,7 @@ const Contact = () => {
             </form>
             <div className="flex flex-col sm:flex-row md:flex-col justify-between gap-5 md:gap-20 items-center md:items-end">
               <a
-                  href="https://calendar.proton.me/book/INSERT_YOUR_BOOKING_LINK_HERE"
+                  href="https://calendar.proton.me/bookings#XcnutoYq5ltVW3YLxO1DokcDSF13NegYJ7htGxnc96A="
                   target="_blank"
                   className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 px-4 sm:px-5 border border-black bg-black rounded-full hover:bg-opacity-80"
               >
