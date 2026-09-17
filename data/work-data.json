@@ -1,6 +1,15 @@
 {
   "workData": [
     {
+      "image": "https://ai.hamednouri.com/images/work/voice-interface-omni-obsidian-flow.jpg",
+      "imageFit": "cover",
+      "title": "Voice Interface for My Second Brain",
+      "client": "Speech-to-Text, Local LLMs, Obsidian",
+      "slug": "voice-interface-obsidian",
+      "description": "Built a voice-driven interface that turns natural speech into structured tasks, projects, events, and notes inside a customized Obsidian knowledge system, using local speech-to-text and an on-device LLM to parse intent and route the result automatically.",
+      "highlights": ["Speech-to-text input", "Local LLM intent parsing", "Structured Markdown generation", "Automatic metadata & routing", "Tasks, events, projects, and notes"]
+    },
+    {
       "image": "/images/work/work-img-1.jpg",
       "title": "34-Site Web Deployment System",
       "client": "Antigravity, GitHub, Cloudflare",
