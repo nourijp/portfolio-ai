@@ -5,7 +5,9 @@ import Link from "next/link";
 import workDataJson from "../../../../../public/data/work-data.json";
 
 const LatestWork = () => {
-  const workData = workDataJson?.workData;
+  const workData = workDataJson?.workData?.filter(
+    (value: any) => value?.featured && !value?.draft
+  );
 
   return (
     <section>
@@ -23,13 +25,13 @@ const LatestWork = () => {
                     key={index}
                     className="group flex flex-col gap-3 xl:gap-6"
                   >
-                    <div className="relative">
+                    <div className={`relative ${(value?.thumbnailImage ? value?.thumbnailImageFit : value?.imageFit) === "contain" ? "bg-black rounded-lg" : ""}`}>
                       <Image
-                        src={getImgPath(value?.image)}
+                        src={getImgPath(value?.thumbnailImage || value?.image)}
                         alt="image"
                         width={570}
                         height={414}
-                        className="rounded-lg w-full h-full object-cover"
+                        className={`rounded-lg w-full h-full ${(value?.thumbnailImage ? value?.thumbnailImageFit : value?.imageFit) === "contain" ? "object-contain" : "object-cover"}`}
                       />
                       <Link
                         href={`/projects/${value.slug}`}
