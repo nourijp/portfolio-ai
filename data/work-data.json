@@ -10,7 +10,8 @@
       "highlights": ["Speech-to-text input", "Local LLM intent parsing", "Structured Markdown generation", "Automatic metadata & routing", "Tasks, events, projects, and notes"]
     },
     {
-      "image": "/images/work/work-img-1.jpg",
+      "image": "https://ai.hamednouri.com/images/work/34-site-deployment-thumbnail.jpg",
+      "imageFit": "cover",
       "title": "34-Site Web Deployment System",
       "client": "Antigravity, GitHub, Cloudflare",
       "slug": "26-site-deployment",
@@ -26,7 +27,8 @@
       "highlights": ["Raycast script commands", "Obsidian templating & automation", "Shell alias library", "Cross-device sync via iCloud & Git"]
     },
     {
-      "image": "/images/work/work-img-3.jpg",
+      "image": "https://ai.hamednouri.com/images/work/trmnl-eink-dashboard-thumbnail.jpg",
+      "imageFit": "cover",
       "title": "TRMNL E-ink Pipeline",
       "client": "Docker, Backend APIs",
       "slug": "trmnl-eink-pipeline",
