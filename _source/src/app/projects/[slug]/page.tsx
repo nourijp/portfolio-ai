@@ -9,15 +9,19 @@ const workData = workDataRaw.workData as {
   slug: string;
   description: string;
   highlights: string[];
+  draft?: boolean;
 }[];
 
+// Draft entries (no real screenshot yet) get no static page at all.
+const livePages = workData.filter((p) => !p.draft);
+
 export async function generateStaticParams() {
-  return workData.map((project) => ({ slug: project.slug }));
+  return livePages.map((project) => ({ slug: project.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const project = workData.find((p) => p.slug === slug);
+  const project = livePages.find((p) => p.slug === slug);
   if (!project) return {};
   return {
     title: `${project.title} — Hamed Nouri`,
@@ -27,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const project = workData.find((p) => p.slug === slug);
+  const project = livePages.find((p) => p.slug === slug);
 
   if (!project) {
     notFound();
